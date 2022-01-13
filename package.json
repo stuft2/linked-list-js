@@ -1,0 +1,46 @@
+{
+  "name": "@byu-oit/cartographer",
+  "version": "0.0.0",
+  "description": "A data structure for organizing data into a list of connected nodes",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byu-oit/cartographer.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/byu-oit/cartographer/issues"
+  },
+  "homepage": "https://github.com/byu-oit/cartographer#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/jest": "^27.4.0",
+    "@types/lodash.get": "^4.4.6",
+    "@types/lodash.set": "^4.3.6",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "jest": "^27.4.7",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.1.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "peerDependencies": {
+    "lodash.get": "^4.4.2",
+    "lodash.set": "^4.3.2"
+  },
+  "dependencies": {
+    "ulid": "^2.3.0"
+  }
+}
